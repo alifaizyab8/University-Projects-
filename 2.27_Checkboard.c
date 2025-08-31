@@ -12,14 +12,10 @@ int main()
     printf("* * * * * * * *\n");
     printf(" * * * * * * * *\n");
 
-    // Using Loops
-    printf("\n\nUsing Loops:\n\n");
-    int i;
-    for (i = 1; i <= 8; i++)
-    {
-        if (i % 2 != 0)
-            printf("* * * * * * * *\n");
-        else
-            printf(" * * * * * * * *\n");
-    }
+    // Using as few printf statements as possible
+    printf("\n\nFewer printf Statements:\n\n");
+    printf("* * * * * * * *\n * * * * * * * *\n* * * * * * * *\n * * * * * * * *\n");
+    printf("* * * * * * * *\n * * * * * * * *\n* * * * * * * *\n * * * * * * * *\n");
+
+    return 0;
 }
