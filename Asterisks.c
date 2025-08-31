@@ -26,7 +26,7 @@ int main()
     {
         printf("    *    \n");
     }
-    
+
     printf("\n\nDiamond of Asterisks:\n");
     printf("\n    *    \n");
     printf("   * *   \n");
@@ -38,5 +38,4 @@ int main()
     printf("   * *   \n");
     printf("    *    \n");
     return 0;
-
-}   
+}

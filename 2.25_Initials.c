@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     printf("\n\nAAAAAAAAA\n");
@@ -15,5 +15,4 @@ int main()
     printf("\n\nI         I\n");
     printf("IIIIIIIIIII\n");
     printf("I         I\n");
-    
 }
