@@ -2,7 +2,7 @@
 int main()
 {
     int num1, num2, num3;
-    printf("Enter three different integers: ");
+    printf("Enter three different integers: \n");
     scanf("%d %d %d", &num1, &num2, &num3);
 
     printf("Sum is %d\n", num1 + num2 + num3);
@@ -24,4 +24,5 @@ int main()
         printf("Largest is %d\n", num2);
     if (num3 >= num1 && num3 >= num2)
         printf("Largest is %d\n", num3);
+    return 0;
 }

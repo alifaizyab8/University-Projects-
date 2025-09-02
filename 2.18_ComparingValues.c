@@ -18,4 +18,5 @@ int main()
     }
 
     printf("The highest rainfall is now set to  %.3f mm\n", highest_rainfall);
+    return 0;
 }

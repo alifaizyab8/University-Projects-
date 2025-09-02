@@ -16,8 +16,10 @@ int main()
     printf("* : %d\n", '*');
     printf("+ : %d\n", '+');
     printf("/ : %d\n", '/');
+    printf(" : %d\n", ' ' );
     char ch;
     printf("Enter a character: ");
     ch = getche();
     printf("\nASCII/ Integer value of %c is %d\n", ch, ch);
+    return 0;
 }

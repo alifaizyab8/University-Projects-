@@ -7,7 +7,7 @@ int main()
     if (num < 10000 || num > 99999)
     {
         printf("Program terminated. Enter a five digit non zero integer\n");
-        return 0;
+        return 1;
     }
     int a, b, c, d, e;
     e = num % 10;
