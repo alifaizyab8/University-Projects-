@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 int main()
 {
     printf("Character : ASCII/ Integer Value\n");
@@ -19,7 +18,7 @@ int main()
     printf(" : %d\n", ' ' );
     char ch;
     printf("Enter a character: ");
-    ch = getche();
+    ch = getchar();
     printf("\nASCII/ Integer value of %c is %d\n", ch, ch);
     return 0;
 }

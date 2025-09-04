@@ -3,7 +3,7 @@ int main()
 {
     int input_seconds, hours, minutes, seconds;
     printf("Enter time in seconds: ");
-    scanf("%d", &input_seconds);
+    scanf("%f", &input_seconds);
     hours = input_seconds / 3600;
     minutes = (input_seconds % 3600) / 60;
     seconds = (input_seconds % 3600) % 60;
