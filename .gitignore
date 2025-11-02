@@ -1,5 +1,6 @@
 # Ignore executable files
 *.exe
+*.out
 
 # Ignore object files and compiled code
 *.o
