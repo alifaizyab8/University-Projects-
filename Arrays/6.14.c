@@ -16,6 +16,7 @@ int main()
             if (arr1[i] == union_arr[j])
             {
                 flag = 1;
+                break;
             }
         }
         
@@ -37,6 +38,8 @@ int main()
             if (arr2[i] ==  union_arr[j])
             {
                 flag = 1;
+                break;
+            
             }
         }
         
