@@ -4,11 +4,11 @@ int main()
     int intersection[10];
     int intersectCount = 0;
     int flag;
-    int arr[10];
+    int arr1[10];
     for (int i = 0; i < 10; i++)
     {
         printf("Array 1 Element %d: ", i + 1);
-        scanf("%d", &arr[i]);
+        scanf("%d", &arr1[i]);
     }
     int arr2[10];
     for (int i = 0; i < 10; i++)
@@ -22,7 +22,7 @@ int main()
         flag = 0;
         for (int j = 0; j < 10; j++)
         {
-            if (arr[i] == arr2[j])
+            if (arr1[i] == arr2[j])
             {
                 flag = 1;
                 break;
@@ -33,7 +33,7 @@ int main()
             int duplicate = 0;
             for (int k = 0; k < intersectCount; k++)
             {
-                if (intersection[k] == arr[i])
+                if (intersection[k] == arr1[i])
                 {
                     duplicate = 1;
                     break;
@@ -42,7 +42,7 @@ int main()
 
             if (!duplicate)
             { // only add if not already in intersection
-                intersection[intersectCount++] = arr[i];
+                intersection[intersectCount++] = arr1[i];
             }
         }
     }

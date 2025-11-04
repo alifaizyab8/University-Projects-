@@ -17,7 +17,7 @@ int main() {
     }
     printf("Sum\tFrequency\n");
     printf("----------------\n");
-    for (int i = 2; i <= 12; i++) {
+    for (int i = 2; i < 13; i++) {
         printf("%d\t%d\n", i, frequency[i]);
     }
 
