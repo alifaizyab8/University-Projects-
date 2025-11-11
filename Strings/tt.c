@@ -1,40 +1,37 @@
-// #include<stdio.h>
-// int main(void)
-// {
-//     char s1[23] = "HelloWorldnowloremipsum";
-//     char s2[23] = "skibididopdowblewwipsum";
-//     printf("%s\n", s1);
-//     printf("%s\n", s2);
-//     char *ptr;
-//     for (int i = 0; s1[i] != '\0'; i++) 
-//     { 
-//         int j = 0;
-//         while (s1[i+j] == s2[j] && s2[j] != '\0')
-//             j++;
-//         if (s2[j] == '\0')
-//         { 
-//             ptr = &s1[i];
-//             break; 
-//         } 
-//     }
-
-    
-// }
-
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
-    char str[] = "1.27 10.3 9.432";
-    double d, e, f;
+int main()
+{
 
-    sscanf(str, "%lf %lf %lf", &d, &e, &f);
+    char c;
+    char s[100];
+    printf("Enter a string: ");
 
-    printf("d = %lf\n", d);
-    printf("e = %lf\n", e);
-    printf("f = %lf\n", f);
-
-    getch();  // pause before exiting (from conio.h)
-    return 0;
+    int i = 0;
+    while ((c = getchar()) != '\n' && i < 99)
+    {
+        s[i] = c;
+        i++;
+    }
+    s[i] = '\0'; // Null-terminate the string
+    printf("You entered: %s\n", s);
+    // alternating upper and lower case letters
+    int j = 0;
+    int k = 1;
+    for (j = 0; j < 99; j += 2)
+    {
+        if ((s[j] >= 'a') && (s[j] <= 'z'))
+        {
+            s[j] -= 32;
+        }
+    }
+    for (; k < 99; k += 2)
+    {
+        if ((s[k] >= 'A') && (s[k] <= 'Z'))
+        {
+            s[k] += 32;
+        }
+    }
+    printf("You entered: %s\n", s);
 }
-
