@@ -4,6 +4,5 @@
 int main()
 {
     // Exercise 8.30
-    
-    return 0;
+   
 }
