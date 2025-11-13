@@ -36,6 +36,6 @@ int main()
         for(int j = 0; j < 20 - i - 1; j++)
         {
             int k = 0;
-    
+        }
     return 0;
 }
